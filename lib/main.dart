@@ -145,7 +145,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
     String? font;
     List<String>? fallback;
     if (App.isLinux || App.isWindows) {
-      font = 'HarmonyOS_Sans';    // 调用自带字体
+      font = 'Noto_Sans_SC';    // 调用自带的SC字体
       fallback = [
         'Noto Color Emoji',    // 增加Emoji字体支持
         'Segoe UI',

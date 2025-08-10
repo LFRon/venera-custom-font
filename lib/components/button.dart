@@ -173,7 +173,7 @@ class _ButtonState extends State<Button> {
         style: TextStyle(
           color: textColor,
           fontSize: 14,
-          fontFamily: 'HarmonyOS_Sans',   // 独立设置自行导入的字体
+          fontFamily: 'Noto_Sans_SC',   // 独立设置自行导入的字体
           fontFamilyFallback: [
             'Noto Color Emoji',
             'Microsoft YaHei',

@@ -64,7 +64,7 @@ class _ToastOverlay extends StatelessWidget {
                         style: const TextStyle(
                           fontSize: 16, 
                           fontWeight: FontWeight.w500,
-                          fontFamily: "HarmonyOS_Sans",
+                          fontFamily: "Noto_Sans_SC",     // 指定自行导入的字体
                           fontFamilyFallback: [
                             'Noto Color Emoji',
                           ],
